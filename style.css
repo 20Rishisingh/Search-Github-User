@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   background-color: #fcedda;
+   color: #ee4e34;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+   height: 22vh;
+   padding: 10px;
+   /* border: 2px solid blue; */
+}
+
+main h1{
+   font-size: 50px;
+   font-family: cursive;
+   font-style: italic;
+   font-weight: bold;
+   text-decoration: underline black;
+   color: red;
+   margin-bottom: 20px;
+}
+
+main input{
+   height: 5vh;
+   width: 30vw;
+   font-size: 20px;
+   padding: 10px;
+   margin: 0px 30px 15px 0px;
+   border-radius: 10px;
+   border: solid salmon;   
+}
+
+main input:focus{
+   box-shadow: 3px 3px 5px ;
+}
+
+button{
+   height: 5vh;
+   width: 7vw;
+   border-radius: 20px;
+   font-size: 20px;
+   border: solid salmon;
+   background-color: white;
+}
+
+button:hover{
+   cursor: pointer;
+   background-color: #fcedda;
+   border: 3px solid salmon;
+   box-shadow: 3px 3px 5px ;
+}
+
+.card{
+   margin: 0 35%;
+   height: 75vh;
+   width: 30vw;
+   background: #07182E;
+   border-radius: 20px;
+   /* border: 2px solid blue; */
+} 
+
+.card:hover{
+   box-shadow: 12px 12px 15px salmon;
+   transition: 0.5s ease-in-out;
+}
+
+ 
+.userImg{
+   height: 30vh;
+   width: 20vw;
+   border-radius: 50%;
+   margin: 10px 0px 0px 0px;
+}
+
+.userImg:hover{
+   scale: 1.1;
+}
+
+.card .userName{
+   font-size: 30px;
+}
+
+.card .userBio{
+   margin: 5px auto;
+   font-size: 20px;
+   width: 400px;
+}
+
+.main-card .userLocation{
+   font-size: 20px;
+}
+
+.card .userJoin{
+   margin: 5px;
+   font-size: 20px;
+}
+
+.repoNfollow{
+   display: flex;
+   justify-content: space-around;
+   height: 10vh;
+   width: 20vw;
+   margin: auto;
+   list-style: none;
+   font-size: 20px;
+}
+
+.userFollowBtn{
+   margin: auto;
+   color: #ee4e34;
+   text-decoration: none;
+}
+
+.userFollowBtn a:link{
+   color: #ee4e34;
+}
