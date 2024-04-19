@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title> Github User Info </title>
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./github-user.css">
 </head>
 
 <body>
@@ -34,21 +34,25 @@
       </div>
 
       <ul class="repoNfollow">
-         <li class="userRepo">
-            <span class="material-symbols-outlined">
-               receipt_long
-            </span>
+         <li class="userRepo" id="tooltip">
+            <div id="tooltiptext"> Repositries </div>
+               <span class="material-symbols-outlined">
+                  receipt_long
+               </span>
+            
             <div id="repo"> 216 </div>
          </li>
 
-         <li class="userFollower">
+         <li class="userFollower" id="tooltip">
+            <div id="tooltiptext"> Followers </div>
             <span class="material-symbols-outlined">
                groups
             </span>
             <div id="followers"> 1k </div>
          </li>
 
-         <li class="userFollows">
+         <li class="userFollows" id="tooltip">
+            <div id="tooltiptext"> Followings </div>
             <span class="material-symbols-outlined">
                group
             </span>
@@ -56,8 +60,8 @@
          </li>
       </ul>
 
-      <button class="userFollowBtn">
-         <a id="followLink" href=""> Follow </a>
+      <button class="profileBtn">
+         <a id="ProfileLink" href=""> View Profile </a>
       </button>
       
    </div>
