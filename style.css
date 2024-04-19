@@ -114,12 +114,31 @@ button:hover{
    font-size: 20px;
 }
 
-.userFollowBtn{
-   margin: auto;
-   color: #ee4e34;
-   text-decoration: none;
+#tooltip {
+   position: relative;
+   display: inline-block;
 }
 
-.userFollowBtn a:link{
+#tooltip #tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: #fcedda;
+   color: #ee4e34;
+   text-align: center;
+   border-radius: 6px;
+   margin: 5px 30px;
+   padding: 3px 3px;
+   position: absolute;
+   z-index: 1;
+}
+
+#tooltip:hover #tooltiptext {
+   visibility: visible;
+}
+
+.profileBtn{
+   margin: auto;
+   width: 10vw;
    color: #ee4e34;
 }
+
