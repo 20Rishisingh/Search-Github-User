@@ -11,7 +11,7 @@ let userFollowers = document.getElementById("followers");
 let userFollowing = document.getElementById("follows");
 let joined = document.getElementById("joined");
 let mainCard = document.getElementById("main-card");
-let followLink = document.getElementById("followLink");
+let profileLink = document.getElementById("ProfileLink");
 
 
 searchBtn.addEventListener("click", () => {
@@ -41,7 +41,7 @@ function displayOutputData(resultIs) {
    userRepos.innerText = resultIs.public_repos;
    userProfile.src = resultIs.avatar_url;
    userName.innerText = resultIs.name;
-   followLink.href = resultIs.html_url;
+   profileLink.href = resultIs.html_url;
    userBio.innerText =  resultIs.bio ? resultIs.bio : "{User has not entered Bio}";
    document.getElementById("userlocation").innerText = resultIs.location;
    joined.innerHTML = `<p>Joined : ${new Date(resultIs.created_at).toLocaleDateString('en-US')} </p>`;
