@@ -1,1 +1,1 @@
-# Search-Github-User --- https://github.com/20Rishisingh/Search-Github-User.git
+# Search-Github-User --- https://20rishisingh.github.io/Search-Github-User/
